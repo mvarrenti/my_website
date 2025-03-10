@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly Varrenti's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="my_photo.JPG" alt="A representation of my passion" class="small-image">
+        <h1>Molly Varrenti's Website</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <button id="home_page">
+                        Home
+                    </button>
+                    <script>
+                        const clickHome = document.getElementById("home_page");
+                        clickHome.addEventListener("click", function() {
+                            window.location.href = "index.html"
+                        });
+                    </script>
+                </li>
+                <li>
+                    <button id="projects">
+                        Projects
+                    </button>
+                    <script>
+                        const clickProjects = document.getElementById("projects");
+                        clickProjects.addEventListener("click", function() {
+                            window.location.href = "project.html"
+                        });
+                    </script>
+                </li>
+                <li>
+                    <button id="contact_page">
+                        Contact
+                    </button>
+                    <script>
+                        const clickContact = document.getElementById("contact_page");
+                        clickContact.addEventListener("click", function() {
+                            window.location.href = "contact.html"
+                        });
+                    </script>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Home</h2>
+        <p>Hello! My name is Molly Varrenti, and throughout college I have gained a strong interest in Data Science. I created this website to share my enthusiasm for Data Science/Analysis, and showcase some of my favorite projects that I have worked on.</p>
+        <!-- <img src="my_interests.jpg" alt="A representation of my passion" class="small-image"> -->
+    </section>
+</body>
+</html>

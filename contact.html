@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Molly Varrenti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="my_photo.JPG" alt="A representation of my passion" class="small-image">
+        <h1>Contact</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <button id="home_page">
+                        Home
+                    </button>
+                    <script>
+                        const clickHome = document.getElementById("home_page");
+                        clickHome.addEventListener("click", function() {
+                            window.location.href = "index.html"
+                        });
+                    </script>
+                </li>
+                <li>
+                    <button id="projects">
+                        Projects
+                    </button>
+                    <script>
+                        const clickProjects = document.getElementById("projects");
+                        clickProjects.addEventListener("click", function() {
+                            window.location.href = "project.html"
+                        });
+                    </script>
+                </li>
+                <li>
+                    <button id="contact_page">
+                        Contact
+                    </button>
+                    <script>
+                        const clickContact = document.getElementById("contact_page");
+                        clickContact.addEventListener("click", function() {
+                            window.location.href = "contact.html"
+                        });
+                    </script>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mollyvarrenti@gmail.com">mollyvarrenti@gmail.com</a></p>
+        <p>Phone Number: <a href="tel:15856268656">+1(585)626-8656</a></p>
+        <p>Connect with me: <a href="https://www.linkedin.com/in/mollyvarrenti" target="_blank">LinkedIn</a></p>
+    </section>
+</body>
+</html>
